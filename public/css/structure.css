@@ -1362,6 +1362,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 /* Secondary menu wrapper */
 #Top_bar .secondary_menu_wrapper {
     display: none;
+    
 }
 
 /* Menu responsive */
@@ -1946,8 +1947,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
     }
 }
 
-.header-below {
-}
+
 
 .header-below #Header .top_bar_left,.header-below #Header .top_bar_right {
     background-color: transparent;
@@ -1978,8 +1978,7 @@ body.header-below:not(.template-slider) #Header {
     background-color: #fff;
 }
 
-.header-classic {
-}
+
 
 .header-classic #Header .top_bar_left,.header-classic #Header .top_bar_right {
     background-color: transparent;

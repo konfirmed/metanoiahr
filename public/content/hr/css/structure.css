@@ -1365,7 +1365,8 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 #Top_bar a.button.action_button {
 	top: 23px;
 	margin: 0 10px 0 0;
-	color: #fff;
+	color: #000;
+	background: #fff;
 }
 
 /* WPML */
@@ -1821,7 +1822,7 @@ body.header-below:not(.template-slider) #Header {
 	background-color: #2C2C2C;
 }
 .header-classic #Top_bar {
-	background-color: #fff;
+	background-color: #2A71BC;
 }
 .header-split #Header .top_bar_left {
 	width: 100% !important;

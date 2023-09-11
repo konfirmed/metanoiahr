@@ -1527,7 +1527,6 @@ h6 {
 	line-height: 22px;
 	font-weight: 400;
 	font-style: normal;
-	font-family: ;
 	padding: 15px 30px 15px 30px;
 	text-decoration: none;
 	text-align: left;
@@ -2369,17 +2368,17 @@ body.contact #Content, body.content_no_padding #Content {
 .the-icons.span3 .i-name {
 	padding-left: 40px;
 }
-@media only screen and min-width: 768px and max-width: 959px {
+@media only screen and (max-width: 959px) {
 	.the-icons.span3 {
 		width: 33.333%;
 	}
 }
-@media only screen and min-width: 480px and max-width: 767px {
+@media only screen and (max-width: 767px) {
 	.the-icons.span3 {
 		width: 50%;
 	}
 }
-@media only screen and max-width: 479px {
+@media only screen and (max-width: 479px) {
 	.the-icons.span3 {
 		width: 100%;
 	}
@@ -2467,7 +2466,6 @@ body.contact #Content, body.content_no_padding #Content {
 .sections_style_0, div.sections_style_0 {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	background-color:
 }
 .sections_style_1, div.sections_style_1 {
 	margin: 0px auto;
@@ -2478,22 +2476,19 @@ body.contact #Content, body.content_no_padding #Content {
 .sections_style_2, div.sections_style_2 {
 	padding-top: 60px;
 	padding-bottom: 0px;
-	background-color:
+	
 }
 .sections_style_3, div.sections_style_3 {
 	padding-top: 60px;
 	padding-bottom: 20px;
-	background-color:
 }
 .sections_style_4, div.sections_style_4 {
 	padding-top: 40px;
 	padding-bottom: 0px;
-	background-color:
 }
 .sections_style_5, div.sections_style_5 {
 	padding-top: 70px;
 	padding-bottom: 0px;
-	background-color:
 }
 .flv_span_12, span.flv_span_12, div.flv_span_12 {
 	padding-top: 12px;

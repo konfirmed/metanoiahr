@@ -1,0 +1,35 @@
+.services {
+  display: flex;
+  padding:60px 13% 45px;
+border: 3px solid #5c91b4; 
+margin: 0 2%;
+}
+.width{
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+  .services {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 60px 13% 45px;
+    border: 3px solid #5c91b4;
+    margin: 0 2%;
+  }
+  .width{
+    width: 100%;
+}
+}
+
+@media (max-width: 590px) {
+    .services{
+    display: block;
+
+    border: 3px solid #5c91b4;
+    margin: 0 2%;
+  }
+  .width{
+    width: 100%;
+}
+}

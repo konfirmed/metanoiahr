@@ -1024,6 +1024,7 @@ body.nice-scroll:not(.layout-boxed) {
 	z-index: 2;
 }
 @media only screen and (max-width: 767px) {
+	
 	.highlight-left:after, .highlight-right:after {
 		content: none;
 	}
@@ -1710,6 +1711,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	display: none;
 }
 @media only screen and (min-width: 768px) {
+	
 	.header-fixed #Top_bar {
 		position: fixed;
 		width: 100%;
@@ -1775,7 +1777,6 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 		top: 12px;
 	}
 }
-.header-below {}
 .header-below #Header .top_bar_left, .header-below #Header .top_bar_right {
 	background-color: transparent;
 }
@@ -1798,7 +1799,6 @@ body.header-below:not(.template-slider) #Header {
 .header-below #Top_bar {
 	background-color: #fff;
 }
-.header-classic {}
 .header-classic #Header .top_bar_left, .header-classic #Header .top_bar_right {
 	background-color: transparent;
 }
@@ -1823,7 +1823,6 @@ body.header-below:not(.template-slider) #Header {
 .header-classic #Top_bar {
 	background-color: #fff;
 }
-.header-split {}
 .header-split #Header .top_bar_left {
 	width: 100% !important;
 }
@@ -1858,6 +1857,7 @@ body.header-below:not(.template-slider) #Header {
 		left: 38%;
 		width: 24%;
 	}
+	
 }
 .header-split #Top_bar .top_bar_right {
 	position: absolute;
@@ -6350,6 +6350,7 @@ body {
 ===================================================================================================== */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	
 	#Wrapper {
 		width: 420px;
 	}
@@ -6394,6 +6395,7 @@ body {
 ===================================================================================================== */
 
 @media only screen and (max-width: 479px) {
+	
 	#Top_bar a.button.action_button {
 		margin-right: 0;
 	}

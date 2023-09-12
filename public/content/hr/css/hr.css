@@ -408,7 +408,7 @@
     top: -60px;
     height: 60px;
     z-index: 701;
-    background: #fff;
+    background: #2A71BC;
     opacity: 0.97;
     filter: alpha(opacity=97);
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
@@ -2595,7 +2595,7 @@ h6 {
 }
 #Top_bar #logo img {
   vertical-align: middle;
-  max-height: 100%;
+  max-height: 50%;
 }
 #Top_bar #logo img.logo-sticky,
 #Top_bar #logo img.logo-mobile {

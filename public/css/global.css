@@ -135,6 +135,10 @@ img.scale-with-grid, #Content img {
 	max-width: 100%;
 	height: auto;
 }
+.footer-grid {
+	max-width: 40px;
+	height: auto;
+}
 .google-map img {
 	max-width: none !important;
 }

@@ -1213,7 +1213,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 
 #Top_bar .logo {
 	float: left;
-	margin: 0 30px 0 20px;
+	margin: 10px 30px 0 0;
 }
 #Top_bar .logo h1 {
 	margin: 0;
@@ -1805,6 +1805,7 @@ body.header-below:not(.template-slider) #Header {
 }
 .header-classic #Top_bar {
 	position: static;
+	background-color: #2A71BC;
 }
 .header-classic #Top_bar .top_bar_right {
 	top: 0;
@@ -5669,7 +5670,6 @@ body {
 	}
 	/* Header */
 	#Top_bar, #Action_bar {
-		background: #fff !important;
 		position: static;
 	}
 	#Top_bar .top_bar_left {

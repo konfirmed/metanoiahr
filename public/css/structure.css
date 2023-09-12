@@ -1803,7 +1803,6 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 #Header .secondary-menu > li > a {
     display: block;
 }
-
 #Header .secondary-menu > li > a:hover {
     text-decoration: none;
 }
@@ -1986,6 +1985,7 @@ body.header-below:not(.template-slider) #Header {
 
 .header-classic #Top_bar {
     position: static;
+    
 }
 
 .header-classic #Top_bar .top_bar_right {

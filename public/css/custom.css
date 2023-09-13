@@ -2,50 +2,84 @@
   width: auto;
   display: flex;
   justify-content: space-between;
-  
-  
   margin: 0 30px 0 20px;
 }
 .width {
   width: 50%;
   padding: 20px 50px 20px 50px;
 }
-.service_text{
+.service_img {
+  width: 50%;
+  padding: 20px 50px 20px 50px;
+}
+.service_text {
   color: #000;
-   text-align: left;
-    font-size: 16px;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 50px;
+
+}
+.service_text h4 {
+  margin-top: 5px;
+}
+.group {
+  margin-top: 120px;
+}
+.group h4 {
+  color: #000;
+  text-align: left;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.group .sec h4 {
+  margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 820px) {
   .services {
     display: block;
     text-align: center;
     align-items: center;
-    padding: 60px 13% 45px;
-    border: 3px solid #5c91b4;
+    padding: 0;
     margin: 0 2%;
   }
   .width {
     width: 100%;
     padding: 20px 20px 20px 10px;
-
   }
-}
-
-@media (max-width: 590px) {
-  .services {
-    display: block;
-
-    border: 3px solid #5c91b4;
-    margin: 0 2%;
+  #strategic_recruiting {
+    display: flex;
+    flex-direction: column;
   }
-  .width {
-    width: 90%;
-    padding: 20px 20px 20px 10px;
-
-  }
-  #empowerment_coaching{
+  #empowerment_coaching {
     display: flex;
     flex-direction: column-reverse;
   }
+  #job_seeker {
+    display: flex;
+    flex-direction: column;
+  }
+  .group {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .group h4{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .group .sec h4{
+    margin-top: 0;
+  }
+  .service_text {
+    text-align: center;
+    margin-top: 0;
+  }
+  .service_img{
+    width: 50%;
+    padding: 20px 20px 20px 10px;
+    margin: 0;
+  }
+ 
 }

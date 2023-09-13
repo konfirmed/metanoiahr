@@ -62,20 +62,20 @@
                                     style="display: flex; justify-content:space-between; margin-right: -10px;">
                                     <a href="/public/services.html" class="button button_theme button_js action_button"
                                         target="_self"><span class="button_label">Services</span></a>
-                                    <a href="/l"
+                                    <a href="/public/content/hr/contact-us.html"
                                         class="button button_theme button_js action_button" target="_self"><span
                                             class="button_label">Contact Us</span></a>
                                 </div>
                                 <div class="ser-icon" >
-                                    <a href="https://facebook.com"
+                                    <a href="https://linkedin.com"
                                         style="background-color: #2A71BC; color: #fff; font-size: 20px; margin-top: 10px; "
                                         class="button button_theme button_js action_button "
-                                        target="_self"><span></span><i class="fa fa-brands fa-facebook"></i>
+                                        target="_self"><span></span><i class="fa fa-brands fa-linkedin"></i>
                                     </a>
-                                    <a href="https://instagram.com"
+                                    <a href="https://twitter.com"
                                         style="background-color: #2A71BC; color: #fff; font-size: 20px; margin-top: 10px; margin-right: 0; "
                                         class="button button_theme button_js action_button"
-                                        target="_self"><span></span><i class="fa fa-brands fa-instagram"></i>
+                                        target="_self"><span></span><i class="fa fa-brands fa-twitter"></i>
                                     </a>
                                 </div>
                                 <div class="dropdown" style="display: block; ">
@@ -90,7 +90,7 @@
                                             </li>
                                             <li >
 
-                                                <a href="content/hr/contact-us.html" style="margin-top: 10px;"
+                                                <a href="/public/content/hr/contact-us.html" style="margin-top: 10px;"
                                                     target="_self">Contact Us</a>
                                             </li>
                                         </ul>
@@ -140,9 +140,9 @@
                                                                 style="width:100%;" rows="10"
                                                                 aria-invalid="false"></textarea>
                                                         </div>
-                                                        <div class="column one">
+                                                        <div class="column one" >
                                                             <input type="button" value="Send A Message" id="submit"
-                                                                onClick="return check_values();">
+                                                                onClick="return check_values();" style="border-radius: 50px; background: #fff; color: #000;margin-top: 20px;">
                                                         </div>
                                                     </form>
                                                 </div>
@@ -168,7 +168,7 @@
                     <div class="foot-content">
                         <div class="textwidget align_right">
                             <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
-                                <div class="image_wrapper"><a href="index.html"><img class="footer-grid"
+                                <div class="image_wrapper"><a href="/public/index.html"><img class="footer-grid"
                                             src="/public/content/hr/images/hr_footer.png"
                                             style="width:90; height: 59 ; margin-top: 10px;" /></a>
                                 </div>
@@ -425,8 +425,8 @@
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        var facebookLink = document.querySelector(".fa-facebook");
-        var instagramLink = document.querySelector(".fa-instagram");
+        var facebookLink = document.querySelector(".fa-linkedin");
+        var instagramLink = document.querySelector(".fa-twitter");
 
         // Function to show/hide Facebook and Instagram links based on screen size
         function toggleSocialLinks() {

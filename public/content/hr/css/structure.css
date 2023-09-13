@@ -1367,6 +1367,8 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	margin: 0 10px 0 0;
 	color: #000;
 	background: #fff;
+	padding: 0 5px 0 5px;
+	border-radius: 10px;
 }
 
 /* WPML */

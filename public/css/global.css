@@ -99,9 +99,9 @@ h5 {
 h6 {
 	margin-bottom: 15px;
 }
-p {
+/* p {
 	margin: 0 0 0 10px;
-}
+} */
 em, i {
 	font-style: italic;
 }
@@ -437,7 +437,19 @@ iframe {
 }
 /* #Buttons
 ================================================== */
-
+.ser-icon{
+	margin-right: -100px;
+}
+@media only screen and (min-width: 1400px) {
+	.ser-icon{
+		margin-right: -190px;
+	}
+}
+@media only screen and (min-width: 2000px) {
+	.ser-icon{
+		margin-right: -50px;
+	}
+}
 a.tp-button {
 	background: none;
 	font-family: inherit !important;
@@ -457,7 +469,7 @@ a.button, a.tp-button, button, input[type="submit"], input[type="reset"], input[
 	padding: 11px 20px;
 	margin-bottom: 15px;
 	cursor: pointer;
-	margin-right: 7px;
+	/* margin-right: 7px; */
 	border: 0;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -3053,6 +3065,7 @@ dl>dd:after {
 	clear: both;
 	display: block
 }
+
 /* Alerts ---------------------------------------------------------------------------- */
 
 .alert {

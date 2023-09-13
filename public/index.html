@@ -26,7 +26,9 @@
 
     <!-- Optional - Adds useful class to manipulate icon font display -->
     <link rel="stylesheet" href="path/to/pe-icon-7-stroke/css/helper.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+        integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <!-- FONTS -->
@@ -51,7 +53,7 @@
         <div id="Header_wrapper" class="bg-parallax" data-enllax-ratio="0.3">
             <header id="Header">
                 <div id="Top_bar" style="background-color: #2A71BC;">
-                    <div class="container">
+                    <div class="container nav_container">
                         <div class="column one">
                             <div class="top_bar_left clearfix">
                                 <div class="logo">
@@ -61,24 +63,8 @@
                                         <img class="logo-mobile scale-with-grid" src="content/hr/images/hr.png" />
                                     </a>
                                 </div>
-                                <div class="menu_wrapper">
-                                    <nav id="menu" class="menu-main-menu-container">
-                                        <ul id="menu-main-menu" class="menu">
 
-                                        </ul>
-                                    </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                                </div>
-                                <div class="secondary_menu_wrapper"></div>
-                                <div class="banner_wrapper"></div>
-                                <div class="search_wrapper">
-                                    <form method="get">
-                                        <i class="icon_search icon-search"></i><a href="#" target="_self"
-                                            class="icon_close"><i class="icon-cancel"></i></a>
-                                        <input type="text" class="field" name="s" id="s"
-                                            placeholder="Enter your search" />
-                                        <input type="submit" class="submit" value="" style="display:none;" />
-                                    </form>
-                                </div>
+
                             </div>
                             <div class="top_bar_right">
                                 <div class="top_bar_right_wrapper">
@@ -88,7 +74,43 @@
                                     <a href="content/hr/contact-us.html" target="_self"
                                         class="button button_theme button_js action_button"><span
                                             class="button_label">Contact Us</span></a>
+                                    <!-- <a href="content/hr/contact-us.html"
+                                        class="button button_theme button_js action_button" target="_self">
+                                        <i class="fas fa-facebook"></i>
+                                    </a> -->
                                 </div>
+                                <div class="ser-icon">
+                                    <a href="https://linkedin.com"
+                                        style="background-color: #2A71BC; color: #fff; font-size: 20px; margin-top: 10px; "
+                                        class="button button_theme button_js action_button "
+                                        target="_self"><span></span><i class="fa fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://twitter.com"
+                                        style="background-color: #2A71BC; color: #fff; font-size: 20px; margin-top: 10px; margin-right: 0; "
+                                        class="button button_theme button_js action_button"
+                                        target="_self"><span></span><i class="fa fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="dropdown" style="display: block;">
+                                    <button class="fa-icon-button">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <ul >
+                                            <li >
+
+                                                <a href="services.html" target="_self">Services</a>
+                                            </li>
+                                            <li >
+
+                                                <a href="content/hr/contact-us.html" style="margin-top: 10px;"
+                                                    target="_self">Contact Us</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -141,6 +163,7 @@
                                             enhancing your operational efficiency and boosting your bottom line.</h6>
                                             <div class="wrap mcb-wrap one  valign-top clearfix">
                                                 <div class="mcb-wrap-inner">
+
                                                     <!-- <a href="services.html" target="_self">
                                                         <div class="column mcb-column one-third column_column ">
                                                             <div class="column_attr align_center"
@@ -392,59 +415,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <div class="section mcb-section no-margin " style="padding-top:20px; padding-bottom:20px; background-color:hsl(219, 66%, 58%); background-image:url(content/hr/images/home_hr_sectionbg3.png); background-repeat:repeat; background-position:center;">
-                            <div class="section_wrapper mcb-section-inner">
-                                <div class="wrap mcb-wrap one  valign-top clearfix">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one-fourth column_hover_color">
-                                            <div class="hover_color" style="background:#437f9d;" ontouchstart="this.classList.toggle('hover');">
-                                                <div class="hover_color_bg" style="background:hsl(219, 66%, 58%);">
-                                                    <a href="#">
-                                                        <div class="hover_color_wrapper" style="padding:40px 30px;">
-                                                            <i class="icon-facebook" style="font-size: 50px; line-height: 50px; color: #1b6d2a;"></i>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one-fourth column_hover_color">
-                                            <div class="hover_color" style="background:#437f9d;" ontouchstart="this.classList.toggle('hover');">
-                                                <div class="hover_color_bg" style="background:hsl(219, 66%, 58%);">
-                                                    <a href="#">
-                                                        <div class="hover_color_wrapper" style="padding:40px 30px;">
-                                                            <i class="icon-pinterest" style="font-size: 50px; line-height: 50px; color: #1b6d2a;"></i>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one-fourth column_hover_color">
-                                            <div class="hover_color" style="background:#437f9d;" ontouchstart="this.classList.toggle('hover');">
-                                                <div class="hover_color_bg" style="background:hsl(219, 66%, 58%);">
-                                                    <a href="#">
-                                                        <div class="hover_color_wrapper" style="padding:40px 30px;">
-                                                            <i class="icon-twitter" style="font-size: 50px; line-height: 50px; color: #1b6d2a;"></i>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one-fourth column_hover_color">
-                                            <div class="hover_color" style="background:#437f9d;" ontouchstart="this.classList.toggle('hover');">
-                                                <div class="hover_color_bg" style="background:hsl(219, 66%, 58%);">
-                                                    <a href="#">
-                                                        <div class="hover_color_wrapper" style="padding:40px 30px;">
-                                                            <i class="icon-google" style="font-size: 50px; line-height: 50px; color: #1b6d2a;"></i>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                        </div>                        
                         <div class="section the_content no_content">
                             <div class="section_wrapper">
                                 <div class="the_content_wrapper"></div>
@@ -457,60 +428,29 @@
         <footer id="Footer" class="clearfix">
             <div class="widgets_wrapper" style="padding:80px 0 60px;">
                 <div class="container">
-                    <div class="column one-second">
-                        <aside class="widget widget_text">
-                            <div class="textwidget">
-                                <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
-                                    <div class="image_wrapper"><img class="footer-grid"
-                                            src="content/hr/images/hr_footer.png" width="90" height="59" />
-                                    </div>
+                    <div class="foot-content">
+                        <div class="textwidget align_right">
+                            <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+                                <div class="image_wrapper"><a href="index.html"><img class="footer-grid"
+                                            src="content/hr/images/hr_footer.png"
+                                            style="width:90; height: 59 ; margin-top: 10px;" /></a>
                                 </div>
-                                <hr class="no_line" style="margin: 0 auto 20px;" />
-                                <p>
-                                    We're not just an HR company – we're your partners in growth. Our mission is to
-                                    empower small and medium-sized businesses across North America to unlock their true
-                                    potential.
-                                </p>
                             </div>
-                        </aside>
-                    </div>
-                    <!-- <div class="column one-fourth">
-                        <aside class="widget widget_text">
-                            <h4>Shortcut links</h4>
-                            <div class="textwidget">
-                                <ul style="line-height: 32px;">
-                                    <li>
-                                        <i class="icon-layout" style="color: hsl(219, 66%, 58%);"></i><a href="#">Aenean sollicitudin</a>
-                                    </li>
-                                    <li>
-                                        <i class="icon-layout" style="color: hsl(219, 66%, 58%);"></i><a href="#">Duis sed odio sit amet</a>
-                                    </li>
-                                    <li>
-                                        <i class="icon-layout" style="color: hsl(219, 66%, 58%);"></i><a href="#">Morbi accumsan</a>
-                                    </li>
-                                    <li>
-                                        <i class="icon-layout" style="color: hsl(219, 66%, 58%);"></i><a href="#">Nam nec tellus </a>
-                                    </li>
-                                    <li>
-                                        <i class="icon-layout" style="color: hsl(219, 66%, 58%);"></i><a href="#">Class aptent taciti</a>
-                                    </li>
-                                    <li>
-                                        <i class="icon-layout" style="color: hsl(219, 66%, 58%);"></i><a href="#">Class aptent taciti</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div> -->
-                    <div class="column one-second">
-                        <aside class="widget widget_text">
-                            <h4>Contact Us</h4>
-                            <div class="textwidget">
-
-                                <p class="big">
-                                    <br> Write us: <a href="mailto:abdullah@metanoiahr.com">abdullah@metanoiahr.com</a>
-                                </p>
-                            </div>
-                        </aside>
+                            <hr class="no_line" style="margin: 0 auto 20px;" />
+        
+                        </div>
+                        <div class="footer-icon"
+                            style="display: flex; justify-content: space-evenly;  color: #fff; font-size: 20px; width: 25%; margin-top: 10px;">
+                            <a href="mailto:abdullah@metanoiahr.com" class="button button_theme button_js action_button "
+                                target="_self"><i class="fa fa-envelope"></i>
+                            </a>
+                            <a href="https://facebook.com" class="button button_theme button_js action_button "
+                                target="_self"><i class="fa fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com" class="button button_theme button_js action_button"
+                                target="_self"><i class="fa fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -601,6 +541,78 @@
                 var mobileLogoH = mobileEl.height();
                 mobileEl.attr("src", "content/hr/images/retina-hr.png").width(mobileLogoW).height(mobileLogoH);
             }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var dropdown = document.querySelector(".dropdown");
+            var button = dropdown.querySelector(".fa-icon-button");
+            var dropdownContent = dropdown.querySelector(".dropdown-content");
+
+            dropdownContent.style.display = "none";
+
+            function toggleButton() {
+                if (window.innerWidth <= 990) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            }
+
+            toggleButton();
+
+            window.addEventListener("resize", toggleButton);
+
+            button.addEventListener("click", function (event) {
+                event.preventDefault();
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                    button.style.display = "block";
+                } else {
+                    dropdownContent.style.display = "block";
+                    button.style.display = "none";
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var topBarRightWrapper = document.querySelector(".top_bar_right_wrapper");
+
+            function toggleContent() {
+                if (window.innerWidth > 990) {
+                    topBarRightWrapper.style.display = "block";
+                } else {
+                    topBarRightWrapper.style.display = "none";
+                }
+            }
+
+            toggleContent();
+
+            window.addEventListener("resize", toggleContent);
+        });
+    </script>
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var facebookLink = document.querySelector(".fa-facebook");
+            var instagramLink = document.querySelector(".fa-instagram");
+
+            // Function to show/hide Facebook and Instagram links based on screen size
+            function toggleSocialLinks() {
+                if (window.innerWidth > 990) {
+                    facebookLink.style.display = "inline-block";
+                    instagramLink.style.display = "inline-block";
+                } else {
+                    facebookLink.style.display = "none";
+                    instagramLink.style.display = "none";
+                }
+            }
+
+            // Initial toggle based on screen size
+            toggleSocialLinks();
+
+            // Event listener for window resize
+            window.addEventListener("resize", toggleSocialLinks);
         });
     </script>
 

@@ -1213,7 +1213,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 
 #Top_bar .logo {
 	float: left;
-	margin: 10px 30px 0 0;
+	margin: 20px 30px 0 0;
 }
 #Top_bar .logo h1 {
 	margin: 0;
@@ -1811,6 +1811,7 @@ body.header-below:not(.template-slider) #Header {
 }
 .header-classic #Top_bar .top_bar_right {
 	top: 0;
+	/* margin-right: -190px; */
 }
 .header-classic #Top_bar .top_bar_right:before {
 	display: none;
@@ -1919,12 +1920,8 @@ body.header-below:not(.template-slider) #Header {
 .header-stack.header-right #Top_bar .logo {
 	text-align: right;
 }
-.header-stack #Top_bar .logo #logo {
-	display: inline-block;
-	height: auto;
-}
 
-/**/
+
 
 .header-stack #Top_bar .menu_wrapper {
 	clear: both;

@@ -5662,6 +5662,7 @@ html,body {
 
     .header-menu-right.header-stack #Top_bar .menu_wrapper {
         margin-right: 150px;
+        
     }
 
     .header-creative .fixed-nav.fixed-nav-prev {
@@ -6651,9 +6652,7 @@ body {
         margin: 0;
     }
 
-    #Top_bar .logo #logo {
-        padding: 5px 42px 15px;
-    }
+   
 
     #Top_bar .logo #logo img {
         height: auto !important;

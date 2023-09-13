@@ -476,12 +476,15 @@ a.button.button_large, a.tp-button.button_large, button.button_large, input[type
 	line-height: 110%;
 }
 /* Button label & icon */
-
+#book_btn{
+	border-radius: 50px;
+}
 a.button .button_label {
 	display: block;
 	float: left;
 	position: relative;
 	z-index: 2;
+	border-radius: 50px;
 }
 a.button .button_icon {
 	display: block;

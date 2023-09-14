@@ -40,12 +40,21 @@
 .dropdown.active .dropdown-content {
   display: block;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
+
   .dropdown-content {
     width: 60px;
    min-height: auto;
    padding: 10px 10px;
-   margin-top: 50px;
+   margin-top: 50p
+   ;
+  }
+  .fa-icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: -150px;
   }
 }
 @media only screen and (min-width: 800px) {

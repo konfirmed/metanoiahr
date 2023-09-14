@@ -440,14 +440,14 @@ iframe {
 .ser-icon{
 	margin-right: -100px;
 }
-/* @media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1400px) {
 	.ser-icon{
-		margin-right: -120px;
+		margin-right: -190px;
 	}
-} */
-@media only screen and (min-width: 4000px) {
+}
+@media only screen and (min-width: 2000px) {
 	.ser-icon{
-		margin-right: 0;
+		margin-right: -50px;
 	}
 }
 a.tp-button {

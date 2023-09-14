@@ -5670,6 +5670,10 @@ body {
 		height: auto !important;
 	}
 	/* Header */
+	.bar_menu_icon{
+		display: flex; 
+		justify-content:space-between;
+	}
 	#Top_bar, #Action_bar {
 		position: static;
 	}

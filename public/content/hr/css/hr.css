@@ -114,6 +114,17 @@
     clear: both;
   }
 }
+@media only screen and (max-width: 900px) {
+  .section_wrapper .mcb-wrap,
+  .section_wrapper .column,
+  .container .column,
+  .sections_group,
+  .four.columns {
+    margin: 0;
+    width: 100% !important;
+    clear: both;
+  }
+}
 @media only screen and (max-width: 767px) {
   .section_wrapper .column {
     margin: 0 0 20px;

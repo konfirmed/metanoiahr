@@ -61,6 +61,9 @@ body:not(.template-slider) #Content {
     margin: 0 auto;
     position: relative;
 }
+.abdul_flex {
+    display: flex;
+}
 
 .section_wrapper:after,.container:after {
     clear: both;

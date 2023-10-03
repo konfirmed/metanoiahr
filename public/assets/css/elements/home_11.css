@@ -1,0 +1,19 @@
+/* --------------- home-style9  --------------- */
+.home-style11 {
+  /* --------------- tc-header-style25 --------------- */
+  /* --------------- tc-about-style25 --------------- */
+  /* --------------- tc-section-title-style25 --------------- */
+  /* --------------- tc-categories-style24 --------------- */
+  /* --------------- tc-portfolio-style25 --------------- */
+  /* --------------- tc-awards-style25 --------------- */
+  /* --------------- tc-partners-style25 --------------- */
+  /* --------------- tc-Testimonials-style25 --------------- */
+  /* --------------- tc-blog-style25 --------------- */ }
+  .home-style11 .tc-header-style26 {
+    background-color: #ecf0f3;
+    padding: 160px 0; }
+    .home-style11 .tc-header-style26 .info h1 {
+      font-size: 100px;
+      text-transform: uppercase; }
+
+/* --------------- responsive --------------- */

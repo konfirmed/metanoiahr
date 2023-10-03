@@ -1,0 +1,160 @@
+/* --------------- page-services-details style --------------- */
+.page-services-details {
+
+    .tc-services-content{
+        padding: 120px 0;
+
+        .main-content{
+            .main-img{
+                height: 500px;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .process{
+                .process-card{
+                    margin-top: 30px;
+                    text-align: center;
+                    padding: 50px 40px;
+                    border: 1px solid #9993;
+                    border-radius: 10px;
+                    transition: all 0.3s ease;
+                    &:hover{
+                        border-color: var(--color-red2);
+                        box-shadow: 0 0 30px #0001;
+                    }
+                    
+                    .icon{
+                        height: 50px;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+            .accordion{
+                .accordion-item{
+                    border: 0;
+                    margin-bottom: 20px;
+                    &:last-of-type{
+                        margin-bottom: 0;
+                    }
+                    .accordion-button{
+                        border: 1px solid #9993;
+                        box-shadow: 0 0 15px #0001;
+                        border-radius: 10px;
+                        font-size: 18px;
+                        padding: 20px;
+                    }
+                    .accordion-button:not(.collapsed){
+                        color: #fff;
+                        background-color: var(--color-orange1);
+                        border-color: var(--color-orange1);
+                        &::after{
+                            filter: brightness(10000%);
+                        }
+                    }
+                }
+            }
+        }
+
+        .widgets{
+            .widget-card{
+                padding: 50px;
+                border: 1px solid #9993;
+                border-radius: 10px;
+                margin-bottom: 40px;
+            }
+
+            .widget-links{
+                ul{
+                    li{
+                        font-size: 18px;
+                        padding: 15px 0;
+                        border-bottom: 1px solid #9992;
+                        &:last-of-type{
+                            border-bottom: 0;
+                        }
+
+                        &:hover{
+                            a{
+                                text-decoration: underline;
+                                margin-left: 0;
+                                .icon{
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        a{
+                            margin-left: -15px;
+                            transition: all 0.3s ease;
+                        }
+
+                        .icon{
+                            opacity: 0;
+                            transition: all 0.3s ease;
+                        }
+                    }
+                }
+            }
+
+            .widget-form{
+                .form-group{
+                    margin-bottom: 15px;
+                    .form-control{
+                        background-color: #f7f7f7;
+                        border-radius: 8px;
+                        border: 0;
+                        padding: 15px;
+                        resize: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .tc-page-about-request{
+        .request-card{
+            position: relative;
+            background-color: #4660ff;
+            color: #fff;
+            padding: 60px;
+            overflow: hidden;
+            border-radius: 15px;
+
+            &::after{
+                position: absolute;
+                content: "";
+                right: 50%;
+                top: -100px;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #334ce4;
+            }
+
+            .info{
+                position: relative;
+                z-index: 10;
+                display: flex;
+                align-items: center;
+                .icon{
+                    margin-inline-end: 20px;
+                    flex-shrink: 0;
+                    opacity: 0.3;
+                    max-width: 50px;
+                }
+            }
+            
+            .butn{
+                z-index: 10;
+            }
+        }
+     }
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-services-details {
+        
+    }
+}

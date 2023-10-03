@@ -1,0 +1,242 @@
+/* --------------- navbar style9 --------------- */
+.page-services {
+
+    /* --------------- tc-services-style24 --------------- */
+    .tc-services-style24{
+        padding: 120px 0;
+        .services-card{
+        position: relative;
+        margin-top: 30px;
+        background-color: #fff;
+        border: 1px solid #f2f2f2;
+        box-shadow: 0px 16px 32px 0px rgba(76, 76, 76, 0.06);
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        .content{
+            position: relative;
+            padding: 40px;
+            overflow: hidden;
+            .shap{
+                position: absolute;
+                right: -75px;
+                bottom: 30px;
+                width: 150px;
+                opacity: 0.03;
+            }
+        }
+        &:hover{
+            border-color: var(--color-red2);
+            &::before{
+                opacity: 1;
+                transform: rotate(6deg);
+            }
+            &::after{
+                opacity: 1;
+                transform: rotate(-6deg);
+            }
+            .info{
+                a{
+                    color: var(--color-red2);
+                    padding-left: 40px;
+                    &::before{
+                    opacity: 1;
+                    }
+                }
+            }
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: 1px solid var(--color-red2);
+            border-radius: 10px;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: -1;
+        }
+        &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: 1px solid var(--color-red2);
+            border-radius: 10px;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: -1;
+        }         
+            
+        .title{
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .icon{
+                margin-inline-end: 25px;
+                flex-shrink: 0;
+                img{
+                    width: 65px;
+                    height: 65px;
+                    object-fit: contain;
+                }
+            }
+            h5{
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        .info{
+            a{
+                color: #e1e1e1;
+                margin-top: 35px;
+                position: relative;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 10px;
+                    width: 25px;
+                    height: 2px;
+                    border-bottom: 2px dashed var(--color-red2);
+                    opacity: 0;
+                }
+            }
+        }
+        }
+    }
+
+    .tc-page-services-skills{
+        background-color: #f9fafb;
+        .img{
+            height: 100%;
+        }
+        .info{
+            padding: 120px 0;
+            .progress-content{
+                .progress-card{
+                    margin-top: 40px;
+                    
+                    .progress-info{
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .progress{
+                        height: 8px;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* --------------- tc-testimonials-style24 --------------- */
+    .tc-contact-style24 {
+        padding: 110px 0;
+
+        .form-group {
+            margin-bottom: 40px;
+
+            .form-control {
+                padding: 20px 0;
+                border: 0;
+                border-bottom: 1px solid #9994;
+                border-radius: 0;
+                font-size: 18px;
+
+                &::placeholder {
+                    color: #000;
+                }
+
+                &:focus {
+                    border-bottom: 1px solid #555;
+                }
+            }
+
+            h6 {
+                font-size: 18px;
+                color: #000;
+                margin-bottom: 30px;
+            }
+        }
+
+        .form-check {
+            font-size: 16px;
+            color: #999;
+            margin-inline-end: 30px;
+
+            .form-check-input:checked {
+                color: #000;
+            }
+
+            .form-check-input:checked~.form-check-label {
+                color: #000;
+            }
+        }
+
+        .form-check-input:checked {
+            background-color: var(--color-red2);
+            border-color: var(--color-red2);
+        }
+
+        .upload_img_content {
+            color: #000;
+            margin-top: 10px;
+
+            .file__input--file {
+                display: none;
+            }
+
+            .file__input--label {
+                cursor: pointer;
+                text-transform: capitalize;
+                font-size: 16px;
+                font-weight: 200;
+
+                i {
+                    margin-inline-end: 10px;
+                    font-size: 21px;
+                }
+            }
+
+            .file__value_content {
+                display: flex;
+                flex-wrap: wrap;
+
+                .file__value {
+                    display: flex;
+                    padding: 15px;
+                    margin-top: 15px;
+                    background-color: #0001;
+                    width: 31%;
+                    margin-inline-end: 2%;
+
+                    .file__value--text {
+                        width: calc(100% - 30px);
+                        overflow: hidden;
+                    }
+                }
+            }
+
+            .file__value--remove {
+                cursor: pointer;
+                margin-inline-start: 10px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-services {
+        
+    }
+}

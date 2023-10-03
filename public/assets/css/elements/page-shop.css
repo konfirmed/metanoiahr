@@ -1,0 +1,63 @@
+/* --------------- page shop --------------- */
+/* --------------- navbar style8 --------------- */
+.navbar.style8 {
+  padding: 0; }
+  .navbar.style8 .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px 0;
+    border-bottom: 1px solid #999; }
+    .navbar.style8 .content .navbar-nav .nav-item .nav-link {
+      margin: 0 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #000; }
+      .navbar.style8 .content .navbar-nav .nav-item .nav-link:hover {
+        color: var(--color-piag); }
+    .navbar.style8 .content .r-side {
+      color: #000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: capitalize; }
+      .navbar.style8 .content .r-side .icons a {
+        position: relative;
+        font-size: 21px;
+        -webkit-margin-start: 10px;
+        margin-inline-start: 10px; }
+        .navbar.style8 .content .r-side .icons a .num {
+          position: absolute;
+          right: -8px;
+          top: -4px;
+          font-size: 10px;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          border-radius: 50%;
+          background-color: var(--color-piag); }
+
+/* --------------- tc header style8 --------------- */
+.tc-header-style8 .img-banner {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden; }
+  .tc-header-style8 .img-banner .img-back {
+    height: 650px;
+    overflow: hidden; }
+  .tc-header-style8 .img-banner .info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    text-align: center;
+    padding: 100px 0; }
+    .tc-header-style8 .img-banner .info h2 {
+      font-size: 55px;
+      margin-bottom: 50px; }

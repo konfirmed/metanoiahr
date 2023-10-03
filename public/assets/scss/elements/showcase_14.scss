@@ -1,0 +1,107 @@
+/* --------------- showcase-style-1  --------------- */
+
+.tc-header-style22{
+   position: relative;
+   padding: 160px 0 60px;
+   background-color: #111;
+   overflow: hidden;
+   color: #fff;
+   min-height: 100vh;
+   .lg_ward{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: calc(25vw + 45px);
+      line-height: 0.8;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fff;
+      color: transparent;
+      opacity: 0.07;
+      pointer-events: none;
+   }
+   .head_line {
+      position: absolute;
+      left: 0;
+      top: 0;
+   }
+
+   .show-card{
+      .info{
+         padding-top: 80px;
+         position: relative;
+         z-index: 50;
+         opacity: 0;
+         transform: translateY(-200px);
+         transition: all 0.5s ease;
+         transition-delay: 0.5s;
+         h1{
+            font-size: 110px;
+            white-space: nowrap;
+         }
+      }
+      .img{
+         position: relative;
+         z-index: 1;
+         height: 650px;
+         opacity: 0;
+         transform: translateY(200px);
+         transition: all 0.5s ease;
+         transition-delay: 0.5s;
+      }
+   }
+
+   .tc-header-slider22{
+      .swiper-container{
+         height: calc(100vh - 220px);
+         overflow: hidden;
+         .swiper-slide{
+            height: calc(100vh - 220px);
+            overflow: hidden;
+         }
+         .swiper-slide-active{
+            .info,
+            .img{
+               opacity: 1;
+               transform: translateY(0);
+            }
+         }
+      }
+      .swiper-pagination{
+         .swiper-pagination-bullet{
+            width: 2px;
+            height: 30px;
+            border-radius: 0;
+            background-color: #fff6;
+            &.swiper-pagination-bullet-active{
+               background-color: var(--color-orange1);
+               height: 40px;
+            }
+         }
+      }
+   }
+   
+}
+
+
+
+
+/* --------------- responsive --------------- */
+@media screen and (max-width: 991px) {
+   .tc-header-style22 {
+      padding-top: 0;
+      .show-card .info h1 {
+         font-size: 40px;
+         white-space: pre-wrap;
+         margin-bottom: 30px;
+     }
+     .tc-header-slider22{
+      .swiper-container{
+         // height: 400px;
+         .swiper-slide{
+            // height: 400px;
+         }
+      }
+     }
+   }
+}

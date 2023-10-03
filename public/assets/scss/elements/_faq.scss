@@ -1,0 +1,55 @@
+/* --------------- faq style 6 --------------- */
+.tc-faq-style6{
+   .accordion{
+      .accordion-item{
+         background: transparent;
+         border-radius: 0;
+         border: 0;
+         .accordion-button{
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            background: transparent;
+            box-shadow: none;
+            padding: 22px 30px;
+            border-bottom: 1px solid #9999;
+            padding-right: 50px;
+            &::after{
+               position: absolute;
+               right: 30px;
+            }
+         }
+         .accordion-button:not(.collapsed){
+            background: #f4f3f8;
+            color: var(--color-cyan3);
+            border: 0;
+            &::after{
+               filter: invert(97%) sepia(32%) saturate(4125%) hue-rotate(82deg) brightness(110%) contrast(85%);
+            }
+         }
+         .accordion-collapse{
+            background: #f4f3f8;
+         }
+         .accordion-body{
+            padding: 0 30px 20px;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 991px){
+   .tc-faq-style6{
+      &.pt-150{
+         padding-top: 50px !important;
+      }
+      &.pb-150{
+         padding-bottom: 50px !important;
+      }
+      .fsz-70{
+         font-size: 40px !important;
+      }
+      .mb-80{
+         margin-bottom: 40px !important;
+      }
+   }
+}

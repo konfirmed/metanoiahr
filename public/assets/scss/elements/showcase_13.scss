@@ -1,0 +1,70 @@
+/* --------------- showcase-style-1  --------------- */
+
+.tc-header-style21{
+   position: relative;
+   padding: 115px 0 40px;
+   background-color: #111;
+   min-height: calc(100vh - 100px);
+   overflow: hidden;
+   .lg_ward{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: calc(25vw + 45px);
+      line-height: 0.8;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fff;
+      color: transparent;
+      opacity: 0.07;
+      pointer-events: none;
+   }
+   .head_line {
+      position: absolute;
+      left: 0;
+      top: 0;
+   }
+   .show-card{
+      color: #fff;
+      .img{
+         position: relative;
+         // overflow: hidden;
+         height: calc(100vh - 280px);
+         max-height: 100vw;
+         &::before{
+            position: absolute;
+            content: "";
+            left: -100px;
+            top: calc(50% - 15px);
+            background-image: url(../img/logo_icon9.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            z-index: 10;
+         }
+         &::after{
+            position: absolute;
+            content: "";
+            right: -100px;
+            top: calc(50% - 15px);
+            background-image: url(../img/logo_mark_or1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            z-index: 10;
+         }
+      }
+   }
+}
+
+
+
+
+/* --------------- responsive --------------- */
+@media screen and (max-width: 991px) {
+   .tc-header-style21 {
+      padding: 50px 0;
+   }
+}

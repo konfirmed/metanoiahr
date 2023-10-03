@@ -1,0 +1,52 @@
+/* --------------- vision style --------------- */
+.tc-vision-style7{
+   position: relative;
+   padding: 130px 0;
+   background-color: #202124;
+   color: #fff;
+   ul{
+      li{
+         a{
+            font-size: 30px;
+            margin-bottom: 20px;
+            &:hover{
+               color: var(--color-orange2);
+               .icon{
+                  background-color: var(--color-orange2);
+                  color: #000;
+               }
+            }
+            .icon{
+               margin-inline-end: 50px;
+               width: 60px;
+               height: 60px;
+               line-height: 60px;
+               text-align: center;
+               border-radius: 50%;
+               background-color: #2b2c30;
+               transition: all 0.3s ease;
+            }
+         }
+      }
+   }
+   .vision_shape{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 90%;
+      width: 45%;
+      object-fit: contain;
+      object-position: left bottom;
+   }
+}
+@media screen and (max-width: 991px){
+   .tc-vision-style7 ul li a{
+      font-size: 18px;
+      .icon{
+         margin-inline-end: 20px;
+         width: 45px;
+         height: 45px;
+         line-height: 45px;
+      }
+   }
+}

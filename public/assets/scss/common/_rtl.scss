@@ -1,0 +1,61 @@
+/* -------------------- rtl style ------------------------- */
+// -------- home 7 rtl style --------
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.home-style7-rtl{
+    direction: rtl;
+    font-family: 'Vazirmatn', sans-serif;
+
+    .la-arrow-right,
+    .la-angle-right,
+    .la-arrow-left,
+    .la-angle-left,
+    .la-chevron-circle-right,
+    .la-chevron-circle-left{
+        display: inline-block;
+        transform: rotate(180deg);
+    }
+
+    .tc-header-style7{
+        background-image: url(../../img/home_construction/header/back_rtl.jpeg);
+        &::after{
+            left: auto;
+            right: 0;
+        }
+    }
+
+    .tc-header-style7 .shap_img{
+        left: auto;
+        right: 0;
+        transform: rotateY(180deg);
+    }
+
+    .tc-about-style7 .about_shap{
+        right: auto;
+        left: 0;
+        transform: rotateY(180deg);
+    }
+
+    .tc-services-style7 .service-card .icon{
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    .tc-vision-style7 .vision_shape{
+        left: auto;
+        right: 0;
+        transform: rotateY(180deg);
+    }
+
+    .navbar.style7 .nav-search-box .form-group input{
+        border: 1px solid #9993;
+        border-left: 0;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .navbar.style7 .nav-search-box .form-group button{
+        border: 1px solid #9993;
+        border-radius: 8px 0 0 8px;
+    }
+    
+}

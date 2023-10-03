@@ -1,0 +1,100 @@
+/* --------------- showcase-style-1  --------------- */
+
+
+/* --------------- tc-projects-style12 --------------- */
+.tc-projects-style12{
+   .project-card{
+      .img{
+         // height: 470px;
+         border-radius: 15px;
+         overflow: hidden;
+         height: calc(100vh - 295px);
+      }
+   }
+
+   .hire-btn{
+      font-size: 150px;
+      font-weight: bold;
+      color: var(--color-orange3);
+      text-align: center;
+      margin-top: 50px;
+      a{
+         position: relative;
+         z-index: 10;
+      }
+      .mirror_1{
+         position: absolute;
+         bottom: -10px;
+         left: 0;
+         width: 100%;
+         text-align: center;
+         color: transparent;
+         -webkit-text-stroke: 1px #fc4a1b33;
+         &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 100%;
+            top: 0;
+            height: calc(100% - 90px);
+            background-color: #fff;
+         }
+      }
+      .mirror_2{
+         position: absolute;
+         bottom: -25px;
+         left: 0;
+         width: 100%;
+         text-align: center;
+         color: transparent;
+         -webkit-text-stroke: 1px #fc4a1b33;
+         &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 100%;
+            top: 0;
+            height: calc(100% - 90px);
+            background-color: #fff;
+         }
+      }
+   }
+   .tc-projects-slider12{
+      position: relative;
+      .float_box{
+         position: absolute;
+         z-index: 30;
+         top: 60px;
+         right: 0;
+         width: 150px;
+         height: 150px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         background-color: #000;
+         color: #fff;
+         border-radius: 50%;
+         transition: all 0.1s ease;
+         opacity: 0;
+         transform: scale(0);
+         p{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+         }
+   
+         &.show{
+            opacity: 1;
+            transform: scale(1);
+         }
+      }
+   }
+   
+}
+
+
+/* --------------- responsive --------------- */
+@media screen and (max-width: 991px) {
+
+}

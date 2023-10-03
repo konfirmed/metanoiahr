@@ -1,0 +1,74 @@
+/* --------------- showcase-style-1  --------------- */
+
+
+.tc-header-style23{
+   position: relative;
+   padding: 160px 0 60px;
+   background-color: #111;
+   overflow: hidden;
+   color: #fff;
+   min-height: 100vh;
+   .lg_ward{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: calc(25vw + 45px);
+      line-height: 0.8;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fff;
+      color: transparent;
+      opacity: 0.07;
+      pointer-events: none;
+   }
+   .head_line {
+      position: absolute;
+      left: 0;
+      top: 0;
+   }
+
+   .show-card{
+      .info{
+         padding-top: 40px;
+         position: relative;
+         z-index: 50;
+         opacity: 0;
+         transform: translateY(-200px);
+         transition: all 0.5s ease;
+         transition-delay: 0.5s;
+      }
+      .img{
+         position: relative;
+         z-index: 1;
+         height: calc(100vh - 220px);
+         max-height: 100vw;
+         opacity: 0;
+         transform: translateY(200px);
+         transition: all 0.5s ease;
+         transition-delay: 0.5s;
+      }
+   }
+
+   .tc-header-slider23{
+      .swiper-container{
+         .swiper-slide-active{
+            .info,
+            .img{
+               opacity: 1;
+               transform: translateY(0);
+            }
+         }
+      }
+   }
+   
+}
+
+
+
+
+/* --------------- responsive --------------- */
+@media screen and (max-width: 991px) {
+   .tc-header-style23 {
+      padding-top: 0;
+   }
+}

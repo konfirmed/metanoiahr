@@ -1,0 +1,54 @@
+/* --------------- show reel style --------------- */
+.tc-progress-style4{
+   padding: 150px 0;
+   background-color: #bec2c5;
+
+   .progress-card{
+      .icon{
+         margin-bottom: 40px;
+         img{
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+         }
+      }
+      .info{
+         h3{
+            font-size: 30px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+         }
+         .text{
+            font-size: 16px;
+         }
+         .num{
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 50%;
+            background-color: #181818;
+            color: #fff;
+            font-size: 12px;
+            margin-top: 80px;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 991px) {
+   .tc-progress-style4{
+      padding: 80px 0;
+      .progress-card {
+         .info {
+            h3{
+               font-size: 20px;
+            }
+            .num {
+               display: none;
+            }
+         }
+      }
+   }
+}

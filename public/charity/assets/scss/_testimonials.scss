@@ -1,0 +1,103 @@
+/* --------------- tc-testimonials-style45 --------------- */
+.tc-testimonials-style45{
+    padding-top: 120px;
+    background-color: #f6f4ef;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 120px;
+        background-color: #fff;
+    }
+
+    .tc-testimonials-slider45{
+        position: relative;
+        padding-bottom: 120px;
+        overflow: hidden;
+        z-index: 10;
+
+        .swiper-slide-active{
+            .testi-card{
+                .img,
+                .info{
+                    opacity: 1;
+                    transform: translate(0 , 0);
+                    transition-delay: 0.4s;
+                }
+            }
+        }
+
+    }
+
+    .testi-card{
+        .img{
+            position: relative;
+            height: 100%;
+            max-height: 100vw;
+            border-radius: 10px 10px 0 0;
+            overflow: hidden;
+            margin-inline-start: 90px;
+            opacity: 0;
+            transform: translate(-50px , 50px);
+            transition: all 0.6s ease;
+            
+
+            .main-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .float-logo{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 285px;
+                text-align: center;
+                padding: 25px 30px;
+                background-color: #111;
+                border-top-right-radius: 10px;
+            }
+        }
+        .info{
+            position: relative;
+            z-index: 10;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0px 16px 32px 0px #0000000a;
+            padding: 70px;
+            left: -90px;
+            top: 90px;
+            opacity: 0;
+            transform: translate(50px , -50px);
+            transition: all 0.6s ease;
+            // transition-delay: 0.4s;
+        }
+    }
+
+ }
+ 
+ @media screen and (max-width: 991px){
+    .swiper-slide{
+        .testi-card{
+            .img,
+            .info{
+                opacity: 1;
+                transform: translate(0 , 0);
+                transition-delay: 0.4s;
+                left: 0;
+                top: 0;
+                margin: 0;
+            }
+            .img{
+                height: 300px;
+            }
+            .info{
+                padding: 15px;
+            }
+        }
+    }
+ }

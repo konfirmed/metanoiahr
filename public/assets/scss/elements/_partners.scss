@@ -1,0 +1,184 @@
+/* --------------- awards style --------------- */
+.tc-partners-style2{
+   padding: 160px 0;
+
+   .tc-partners-slider2{
+      .swiper-wrapper {
+         -webkit-transition-timing-function: linear !important;
+         transition-timing-function: linear !important;
+         position: relative;
+     }
+      .img-logo{
+         height: 300px;
+         width: 300px;
+         border: 1px solid #999;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         outline: 1px solid #9995;
+         transition: all 0.4s ease;
+         img{
+            max-width: 50%;
+         }
+
+         &:hover{
+            outline: 10px solid transparent;
+            outline-offset: 50px;
+         }
+      }
+   }
+}
+
+
+/* --------------- tc-partners-style3 --------------- */
+.tc-partners-style3{
+   padding: 130px 0 0;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   position: relative;
+   z-index: 10;
+   margin-top: -30px;
+   background-color: #fff;
+   .content{
+      padding: 100px 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-inline-end: -16px;
+      border-bottom: 1px solid #999;
+      .partner-logo{
+         width: calc(20% - 16px);
+         margin: 8px 0;
+         margin-inline-end: 16px;
+         height: 180px;
+         border: 1px solid #999;
+         border-radius: 15px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+   }
+}
+
+
+/* --------------- tc-partners-style4 --------------- */
+.tc-partners-style4{
+   padding: 150px 0;
+   .logos-content{
+      display: flex;
+      flex-wrap: wrap;
+      border-top: 1px solid #999;
+      border-left: 1px solid #999;
+      .brand{
+         width: 20%;
+         height: 180px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-bottom: 1px solid #999;
+         border-right: 1px solid #999;
+         filter: grayscale(1);
+         img{
+            width: 130px;
+         }
+
+         &:hover{
+            filter: grayscale(0);
+         }
+      }
+   }
+}
+@media screen and (max-width: 991px) {
+   .tc-partners-style4{
+      padding: 80px 0;
+      .logos-content {
+         .brand {
+            width: 33.3333%;
+            height: 115px;
+            padding: 15px;
+         }
+      }
+   }
+}
+
+
+/* --------------- tc-partners-style5 --------------- */
+.tc-partners-style5{
+   .tc-partners-slider5{
+      .img{
+         img{
+            width: 130px;
+         }
+      }
+      .swiper-wrapper {
+         transition-timing-function: linear !important;
+         position: relative;
+     }
+   }
+}
+
+
+/* --------------- tc-partners-style6 --------------- */
+.tc-partners-style6{
+   background-color: #4438ba;
+   color: #fff;
+
+   .partners-row{
+      .logos{
+         .logo-img{
+            margin-top: 30px;
+         }
+      }
+   }
+}
+@media screen and (max-width: 991px){
+   .tc-partners-style6{
+      &.pt-150{
+         padding-top: 50px !important;
+      }
+      &.pb-150{
+         padding-bottom: 50px !important;
+      }
+      .mb-150{
+         margin-bottom: 100px !important;
+      }
+      .mb-60{
+         margin-bottom: 20px !important;
+      }
+      .fsz-70{
+           font-size: 40px !important;
+       }
+       .fsz-35{
+           font-size: 25px !important;
+       }
+       .pricing-card .card-body{
+           min-height: max-content;
+       }
+   }
+}
+
+
+/* --------------- tc-partners-style7 --------------- */
+.tc-partners-style7{
+   padding: 130px 0;
+   .logos{
+      display: flex;
+      flex-wrap: wrap;
+      .logo{
+         width: 20%;
+         text-align: center;
+         margin-top: 120px;
+      }
+   }
+}
+@media screen and (max-width: 991px){
+   .tc-partners-style7{
+      .logos{
+         .logo{
+            width: 33%;
+            margin-top: 50px;
+            padding: 0 15px;
+         }
+      }
+   }
+}

@@ -1,0 +1,143 @@
+/* --------------- approach style 2 --------------- */
+.tc-approach-style2{
+   padding: 160px 0 150px;
+   background-color: #29292b;
+
+   .approach-card{
+      .card-box{
+         padding: 30px;
+         border: 1px solid #4d4d50;
+         .img-icon{
+            height: 180px;
+            margin: 80px 0;
+            img{
+               width: 100%;
+               height: 100%;
+               object-fit: contain;
+            }
+         }
+      }
+      .info{
+         padding-top: 40px;
+         h3{
+            font-size: 32px;
+            color: #fff;
+         }
+         p{
+            font-size: 16px;
+            color: #999;
+            margin-top: 20px;
+         }
+      }
+   }
+   .content{
+      position: relative;
+      margin-left: calc((100vw - 1330px) / 2);
+      overflow: hidden;
+      .float_box{
+         position: absolute;
+         top: 60px;
+         right: 0;
+         width: 140px;
+         height: 140px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color: #1e1e20;
+         border-radius: 50%;
+         transition: all 0.1s ease;
+         opacity: 0;
+         transform: scale(0);
+         z-index: 10;
+         p{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+         }
+
+         &.show{
+            opacity: 1;
+            transform: scale(1);
+         }
+      }
+   }
+}
+
+/* --------------- approach style 3 --------------- */
+.tc-approach-style3{
+   background-color: #d9e2e4;
+   padding: 180px 0;
+   .approach-tabs{
+      .nav-link{
+         padding: 45px 0;
+         background-color: transparent;
+         border-radius: 0;
+         position: relative;
+         .circle-shape{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            z-index: 2;
+            width: 510px;
+            height: calc(100% + 40px);
+            max-width: unset;
+            max-height: unset;
+            opacity: 0.5;
+         }
+         h5{
+            font-size: 36px;
+            font-weight: 100;
+            color: #000;
+         }
+         &.active{
+            .circle-shape{
+               opacity: 1;
+               z-index: 10;
+            }
+            h5{
+               font-weight: bold;
+            }
+         }
+      }
+   }
+   .info{
+      .tab-content{
+         padding: 30px 0;
+         .accordion{
+            .accordion-item{
+               background: transparent;
+               border-radius: 0;
+               border: 0;
+               .accordion-button{
+                  font-size: 24px;
+                  font-weight: bold;
+                  color: #000;
+                  background: transparent;
+                  box-shadow: none;
+                  padding: 20px 0;
+                  border-bottom: 1px solid #9994;
+                  &::after{
+                     background: transparent;
+                     font-family: 'Line Awesome Free';
+                     font-weight: 900;
+                     content: "\f068";
+                  }
+               }
+               .accordion-button:not(.collapsed){
+                  background: transparent;
+                  color: var(--color-cyan1);
+                  &::after{
+                     content: "\f067";
+                  }
+               }
+               .accordion-body{
+                  padding: 20px 0;
+               }
+            }
+         }
+      }
+   }
+}

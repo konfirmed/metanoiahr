@@ -1,0 +1,102 @@
+/* --------------- page plog style3 --------------- */
+.page-plog-style3 .main-posts .main-card-blog {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden; }
+  .page-plog-style3 .main-posts .main-card-blog .img {
+    height: 630px;
+    border-radius: 30px;
+    overflow: hidden; }
+  .page-plog-style3 .main-posts .main-card-blog .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    min-width: 310px;
+    z-index: 5;
+    background-color: var(--color-cyan1);
+    padding: 30px 20px 30px 30px;
+    border-top-right-radius: 30px;
+    color: #fff; }
+    .page-plog-style3 .main-posts .main-card-blog .info .tags-date .tag-link {
+      font-size: 14px;
+      font-weight: bold;
+      border: 1px solid #fff3;
+      padding: 7px 15px;
+      border-radius: 8px;
+      text-transform: uppercase; }
+    .page-plog-style3 .main-posts .main-card-blog .info .tags-date small {
+      color: #ccffff;
+      -webkit-margin-start: 10px;
+      margin-inline-start: 10px; }
+    .page-plog-style3 .main-posts .main-card-blog .info .title {
+      font-size: 24px;
+      margin-top: 15px; }
+    .page-plog-style3 .main-posts .main-card-blog .info .text {
+      font-size: 16px;
+      margin-top: 30px;
+      color: #ccffff; }
+
+.page-plog-style3 .main-posts .text-news-card {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 30px; }
+  .page-plog-style3 .main-posts .text-news-card h5 {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase; }
+  .page-plog-style3 .main-posts .text-news-card .blog-card {
+    margin-top: 25px; }
+    .page-plog-style3 .main-posts .text-news-card .blog-card h3.title {
+      font-size: 24px;
+      font-weight: bold; }
+      .page-plog-style3 .main-posts .text-news-card .blog-card h3.title:hover {
+        color: var(--color-cyan1); }
+    .page-plog-style3 .main-posts .text-news-card .blog-card .tags-date {
+      margin-bottom: 10px; }
+      .page-plog-style3 .main-posts .text-news-card .blog-card .tags-date .tag-link {
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid #9994;
+        padding: 7px 15px;
+        border-radius: 8px;
+        text-transform: uppercase; }
+      .page-plog-style3 .main-posts .text-news-card .blog-card .tags-date small {
+        -webkit-margin-start: 10px;
+        margin-inline-start: 10px; }
+
+.page-plog-style3 .main-posts .color-info-news-card .info-card {
+  min-width: 310px;
+  z-index: 5;
+  background-color: var(--color-cyan1);
+  padding: 30px 25px;
+  border-radius: 30px;
+  color: #fff; }
+  .page-plog-style3 .main-posts .color-info-news-card .info-card .tags-date .tag-link {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #fff3;
+    padding: 7px 15px;
+    border-radius: 8px;
+    text-transform: uppercase; }
+  .page-plog-style3 .main-posts .color-info-news-card .info-card .tags-date small {
+    color: #ccffff;
+    -webkit-margin-start: 10px;
+    margin-inline-start: 10px; }
+  .page-plog-style3 .main-posts .color-info-news-card .info-card .title {
+    font-size: 24px;
+    margin-top: 15px; }
+  .page-plog-style3 .main-posts .color-info-news-card .info-card .text {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #ccffff; }
+
+.page-plog-style3 .main-posts .color-info-news-card .img-card {
+  height: 100%;
+  border-radius: 30px;
+  overflow: hidden; }
+  .page-plog-style3 .main-posts .color-info-news-card .img-card img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }

@@ -1,0 +1,71 @@
+/* --------------- tc-clients-style45 --------------- */
+.tc-clients-style45{
+    padding: 90px 0 50px;
+
+    .logos{
+        display: flex;
+        align-items: center;
+
+        .logo{
+            position: relative;
+            width: 20%;
+            text-align: center;
+            &:hover{
+                img{
+                    transform: scale(0.9);
+                    opacity: 0;
+                }
+                h6{
+                    transform: translate(-50% , -50%) scale(1);
+                    opacity: 1;
+                }
+            }
+
+            img{
+                height: 90px;
+                object-fit: contain;
+                transition: all 0.3s ease;
+            }
+
+            h6{
+                font-size: 20px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50% , -50%) scale(0.9);
+                opacity: 0;
+                transition: all 0.3s ease;
+                white-space: nowrap;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+ }
+ 
+ @media screen and (max-width: 991px){
+    .tc-clients-style45 {
+        padding: 0;
+        .logos {
+            flex-wrap: wrap;
+            justify-content: center;
+            .logo{
+                width: 50%;
+                margin: 10px 0;
+
+                h6{
+                    font-size: 16px;
+                    position: relative;
+                    left: 0;
+                    top: 0;
+                    transform: none;
+                    opacity: 1;
+                    margin-top: 15px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+ }

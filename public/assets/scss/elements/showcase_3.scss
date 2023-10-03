@@ -1,0 +1,107 @@
+/* --------------- showcase-style-3  --------------- */
+/* --------------- tc-header-style11 --------------- */
+.tc-header-style11{
+   .tc-header-slider11{
+      position: relative;
+      .swiper-slide{
+         .img-back{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+         &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #17191e;
+            opacity: 0.5;
+         }
+      }
+      .swiper-slide-active{
+         .head-content{
+            .lines{
+               // clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            }
+            .info{
+               clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+               opacity: 1;
+               transform: scaleY(1);
+            }
+         }
+      }
+   }
+   .head-content{
+         position: relative;
+         min-height: calc(100vh - 115px);
+         position: relative;
+         display: flex;
+         align-items: flex-end;
+         .lines{
+            position: absolute;
+            left: 16.5%;
+            top: 0;
+            width: 67%;
+            height: 100%;
+            pointer-events: none;
+            display: flex;
+            justify-content: space-between;
+            // clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+            // transition: all 0.5s linear;
+            // transition-delay: 1.5s;
+            span{
+               width: 1px;
+               height: 100%;
+               background-color: #fff2;
+            }
+         }
+      .info{
+         background-image: url(../img/showcase_3/inf_bg.png);
+         background-size: cover;
+         color: #fff;
+         clip-path: polygon(0 100%, 0 100%, 0 0, 0 0);
+         transform: scale(1.3);
+         opacity: 0;
+         transition: all 0.5s ease-in-out;
+         transition-delay: 1.2s;
+         .top-info{
+            padding: 40px 30px 10px;
+            border-bottom: 1px solid #fff3;
+            display: flex;
+            justify-content: space-between;
+         }
+         .title{
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px 30px 50px;
+         }
+         .det-link{
+            padding: 20px 30px;
+            background-color: var(--color-blue3);
+            display: block;
+         }
+      }
+   }
+   .swiper-button-next,
+   .swiper-button-prev{
+      width: 45px;
+      height: 45px;
+      border: 1px solid #fff5;
+      color: #fff;
+      border-radius: 50%;
+      &::after{
+         font-size: 13px;
+      }
+   }
+}
+
+
+/* --------------- responsive --------------- */
+@media screen and (max-width: 991px) {
+
+}

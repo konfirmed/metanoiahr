@@ -1,0 +1,95 @@
+/* --------------- awards style --------------- */
+.tc-awards-style1{
+   padding: 140px 0;
+   border-bottom: 1px solid #9993;
+
+   .award-card{
+      margin-top: 100px;
+      .img-brand{
+         margin-bottom: 50px;
+      }
+
+      ul{
+         li{
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid #9993;
+            text-transform: capitalize;
+
+            h5{
+               font-size: 24px;
+               font-weight: bold;
+            }
+
+            a{
+               font-size: 15px;
+               color: #666;
+               &:hover{
+                  color: var(--color-orange1);
+                  text-decoration: underline;
+               }
+            }
+
+            &:first-of-type{
+               padding-top: 0;
+            }
+
+            &:last-of-type{
+               padding-bottom: 0;
+               border: 0;
+            }
+         }
+      }
+   }
+}
+
+
+/* --------------- awards style --------------- */
+.tc-awards-style4{
+   .table{
+      thead{
+         th{
+            font-size: 12px;
+            color: #999;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 15px 20px;
+         }
+      }
+      tbody{
+         tr{
+            font-size: 18px;
+            transition: all 0.3s ease;
+            td{
+               padding: 30px 20px;
+               border-color: #999;
+               &:first-of-type{
+                  text-transform: uppercase;
+               }
+            }
+         }
+      }
+
+      tbody>tr:hover{
+         background-color: var(--color-lightGreen);
+      }
+   }
+}
+
+@media screen and (max-width: 991px) {
+   .tc-awards-style4 {
+      .table {
+         tbody {
+            tr {
+               td {
+                  padding: 20px 10px;
+                  border-color: #999;
+                  font-size: 12px;
+                  min-width: 130px;
+               }
+            }
+         }
+      }
+   }
+}

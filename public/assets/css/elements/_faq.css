@@ -1,0 +1,27 @@
+/* --------------- faq style 6 --------------- */
+.tc-faq-style6 .accordion .accordion-item {
+  background: transparent;
+  border-radius: 0;
+  border: 0; }
+  .tc-faq-style6 .accordion .accordion-item .accordion-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 22px 0;
+    border-bottom: 1px solid #999;
+    padding-right: 50px; }
+    .tc-faq-style6 .accordion .accordion-item .accordion-button::after {
+      position: absolute;
+      right: 0; }
+  .tc-faq-style6 .accordion .accordion-item .accordion-button:not(.collapsed) {
+    background: transparent;
+    color: var(--color-cyan3);
+    border-color: var(--bg-cyan3); }
+    .tc-faq-style6 .accordion .accordion-item .accordion-button:not(.collapsed)::after {
+      -webkit-filter: invert(0%) sepia(100%) saturate(7454%) hue-rotate(211deg) brightness(0%) contrast(111%);
+      filter: invert(0%) sepia(100%) saturate(7454%) hue-rotate(211deg) brightness(0%) contrast(111%); }
+  .tc-faq-style6 .accordion .accordion-item .accordion-body {
+    padding: 20px 0; }

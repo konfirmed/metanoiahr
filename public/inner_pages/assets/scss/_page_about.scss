@@ -1,0 +1,285 @@
+/* --------------- navbar style9 --------------- */
+.page-about {
+
+    .tc-page-about-cards{
+        position: relative;
+        padding: 120px 0 90px;
+
+        .lines{
+            position: absolute;
+            left: 50%;
+            top: 60%;
+            transform: translate(-50% , - 50%);
+            max-width: 80%;
+            pointer-events: none;
+        }
+
+        .img{
+            height: 450px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .info{
+            margin-top: 120px;
+            text-align: center;
+            .logo{
+                width: 100px;
+                margin: 0 auto 20px;
+            }
+            .text{
+                font-size: 18px;
+                color: #666;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .tc-page-about-clients{
+        .logos{
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #9993;
+            border-bottom: 0;
+            background-color: #fff;
+            box-shadow: 0 0 30px #0001;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .logo{
+                width: 20%;
+                padding: 30px;
+                text-align: center;
+                border-inline-end: 1px solid #9993;
+                border-bottom: 1px solid #9993;
+
+                &:nth-of-type(5),
+                &:last-of-type{
+                    border-inline-end: 0;
+                }
+
+                img{
+                    height: 40px;
+                    max-width: 60%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .tc-page-about-timeline{
+        padding: 120px 0;
+
+        .content{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 82px;
+                width: 100%;
+                height: 1px;
+                background-color: #9993;
+            }
+
+            .text{
+                font-size: 13px;
+            }
+        }
+
+    }
+    
+    .tc-page-about-numbers{
+        padding: 80px 0;
+        background-image: url(../img/numbers_back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        .number-card{
+            display: flex;
+            align-items: center;
+            h2{
+                font-size: 50px;
+                margin-inline-end: 20px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .tc-testimonials-style24{
+        position: relative;
+        padding: 120px 0;
+        background-color: #f2f4f7;
+        position: relative;
+        // overflow: hidden;
+        .stars{
+           color: #fefeff;
+           font-size: 100px;
+           position: absolute;
+           top: 0;
+           right: 30px;
+        }
+
+        .content{
+           .icon{
+              text-align: center;
+              margin-bottom: 50px;
+              img{
+                 width: 85px;
+                 height: 85px;
+                 border-radius: 50%;
+                 object-fit: cover;
+              }
+           }
+           .main-text{
+              font-size: 26px;
+              text-align: center;
+           }
+        }
+  
+        .testimonials-main-slider{
+           overflow: hidden;
+           padding-bottom: 30px;
+           border-bottom: 1px solid #9993;
+        }
+     
+        .testimonials-sub-slider{
+           padding-top: 30px;
+           padding-bottom: 50px;
+           overflow: hidden;
+           .swiper-slide{
+              opacity: 20%;
+              transition: all 0.7s ease;
+              &.swiper-slide-active{
+                 opacity: 1;
+              }
+           }
+        }
+  
+        .swiper-pagination{
+           .swiper-pagination-bullet{
+              width: 30px;
+              height: 2px;
+              background-color: #dce0e5;
+              border-radius: 0;
+              opacity: 1;
+              &.swiper-pagination-bullet-active{
+                 background-color: #000;
+              }
+           }
+        }
+  
+        .float-text{
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           text-align: center;
+           font-size: calc(8vw + 40px);
+           line-height: 0.8;
+           font-weight: bold;
+           color: #fdfdfd;
+           &::after{
+              position: absolute;
+              content: "";
+              left: 0;
+              bottom: 0;
+              height: 100%;
+              width: 100%;
+              background-image: linear-gradient(to bottom , #f2f4f7 , transparent );
+           }
+        }
+     }
+
+     .tc-blog-style24{
+        padding: 120px 0;
+        position: relative;
+        overflow: hidden;
+        border-bottom: 1px solid #9993;
+  
+        .container{
+           position: relative;
+           z-index: 10;
+        }
+        
+        .blog-card{
+           border-radius: 15px;
+           overflow: hidden;
+           box-shadow: 0px 16px 32px 0px #4c4c4c0a;
+           background-color: #fff;
+           margin-top: 30px;
+           .main-img{
+              height: 240px;
+              overflow: hidden;
+           }
+           .info{
+              padding: 40px;
+              .form-check{
+                 .form-check-input{
+                    opacity: 0;
+                    display: none;
+                 }
+                 .form-check-label{
+                    color: #999;
+                    cursor: pointer;
+                 }
+                 .form-check-input:checked ~ .form-check-label{
+                    color: var(--color-red2);
+                 }
+              }
+           }
+        }
+     }
+
+     .tc-page-about-request{
+        .request-card{
+            position: relative;
+            background-color: #4660ff;
+            color: #fff;
+            padding: 60px;
+            overflow: hidden;
+            border-radius: 15px;
+
+            &::after{
+                position: absolute;
+                content: "";
+                right: 50%;
+                top: -100px;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                background-color: #334ce4;
+            }
+
+            .info{
+                position: relative;
+                z-index: 10;
+                display: flex;
+                align-items: center;
+                .icon{
+                    margin-inline-end: 20px;
+                    flex-shrink: 0;
+                    opacity: 0.3;
+                    max-width: 50px;
+                }
+            }
+            .butn{
+                z-index: 10;
+            }
+        }
+     }
+
+}
+
+@media screen and (max-width: 991px) {
+    .page-about {
+        .tc-page-about-clients .logos .logo{
+            width: 50%;
+            border-right: 1px solid #9993 !important;
+        }
+        .tc-testimonials-style24 .stars{
+            font-size: 40px;
+        }
+    }
+}

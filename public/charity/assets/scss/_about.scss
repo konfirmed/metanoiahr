@@ -1,0 +1,57 @@
+/* --------------- tc-about-style45 --------------- */
+.tc-about-style45{
+    padding: 120px 0;
+
+    .info{
+        // text-align: end;
+
+        .icon{
+            height: 70px;
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 50px;
+        }
+        .nav-pills{
+            display: block;
+            margin: 50px 0;
+
+            .nav-link{
+                background-color: #f6f4ef;
+                width: max-content;
+                margin-bottom: 15px;
+                color: #000;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 15px 40px;
+                border-radius: 8px;
+                // margin-inline-end: 0;
+                // margin-inline-start: auto;
+
+                &.active{
+                    background-color: var(--color-orange7);
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+ }
+ 
+ @media screen and (max-width: 991px){
+    .tc-about-style45 {
+        overflow: hidden;
+        .info {
+            text-align: start;
+            h2 {
+                font-size: 30px;
+            }
+            .nav-pills .nav-link{
+                margin-inline-start: 0;
+            }
+        }
+        .th-140{
+            height: max-content !important;
+        }
+    }
+ }

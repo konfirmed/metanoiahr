@@ -11,7 +11,7 @@
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>zumar</title>
+    <title>MetanoiaHR</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../common/assets/img/fav2.png" title="Favicon" sizes="17x17" />
@@ -107,14 +107,15 @@
     <!-- end navbar -->
 
     <!-- start header -->
-    <header class="tc-header-style10 bg-img pb-200"  data-background="assets/img/soon_back.png">
+    <header class="tc-header-style10 bg-img pb-200" data-background="assets/img/soon_back.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="title text-capitalize text-center text-white">
                         <h1 class="fsz-60"> Coming Soon </h1>
                     </div>
-                    <p class="fsz-18 mt-30 text-white op-6"> Ensuring the best return on investment for your bespoke <br> SEO campaign requirement. </p>        
+                    <p class="fsz-18 mt-30 text-white op-6"> Ensuring the best return on investment for your bespoke
+                        <br> SEO campaign requirement. </p>
                     <div class="timing">
                         <!-- <div class="item">
                             <h2 id="weeks"></h2>
@@ -140,7 +141,8 @@
                     <div class="subscribe-form">
                         <div class="form-group">
                             <input type="text" placeholder="Business email address" class="form-control">
-                            <button class="butn bg-orange1 rounded-0 py-3 flex-shrink-0 border-0" type="submit"> <span class="text-white"> Subscribe </span> </button>
+                            <button class="butn bg-orange1 rounded-0 py-3 flex-shrink-0 border-0" type="submit"> <span
+                                    class="text-white"> Subscribe </span> </button>
                         </div>
                     </div>
                 </div>
@@ -166,25 +168,25 @@
 
     <!-- ----- home scripts ----- -->
     <script src="assets/js/inner_pages_scripts.js"></script>
-    
+
     <script>
         const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24,
-        week = hour * 24 * 7;
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24,
+            week = hour * 24 * 7;
 
         let countDown = new Date('may 29, 2023 11:30').getTime(),
-            x = setInterval(function() {
+            x = setInterval(function () {
 
                 let now = new Date().getTime(),
                     distance = countDown - now;
 
                 // document.getElementById('weeks').innerText = Math.floor(distance / (day) / 7),
                 document.getElementById('days').innerText = Math.floor(distance / (day)),
-                document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-                document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-                document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+                    document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+                    document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+                    document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
                 //do something later when date is reached
                 //if (distance < 0) {

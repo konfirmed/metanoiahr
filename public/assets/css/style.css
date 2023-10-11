@@ -12165,7 +12165,7 @@ a.content__text-link[data-fx="14"]:hover::after {
 .page-single-post-style3 .widgets .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

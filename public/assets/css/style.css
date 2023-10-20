@@ -2480,6 +2480,13 @@ input:focus {
   border: 1px solid rgba(153, 153, 153, 0.3333333333);
   border-radius: 50px;
 }
+.hero-btn {
+  padding: 20px 40px;
+  font-size: 18px;
+  border: 1px solid rgba(153, 153, 153, 0.3333333333);
+  border-radius: 50px;
+  background-color: black;
+}
 .butn span {
   color: #29292b;
   font-weight: 500;
@@ -4480,7 +4487,7 @@ input:focus {
 
 /* --------------- tc header style3 --------------- */
 .tc-header-style3 .content {
-  background-image: url(../img/header/hero_sec.webp);
+  background-image: url(../img/header/hero_img.png);
   background-size: cover;
   padding: 120px 0;
   color: #fff;
@@ -4499,10 +4506,11 @@ input:focus {
 }
 .tc-header-style3 .content .info h1 {
   font-size: 80px;
+  color: #000;
 }
 .tc-header-style3 .content .info .text {
   font-size: 24px;
-  color: #fefefe;
+  color: #000;
   margin-top: 50px;
 }
 .tc-header-style3 .content .info .btns {
@@ -4973,6 +4981,9 @@ input:focus {
 /* --------------- about style 3 --------------- */
 .tc-about-style3 {
   padding: 130px 0;
+}
+.tc-about-hero {
+  padding: 75px 0;
 }
 .tc-about-style3 .img {
   position: relative;

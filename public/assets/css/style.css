@@ -2487,9 +2487,15 @@ input:focus {
   border-radius: 50px;
   background-color: black;
 }
+@media screen and (max-width: 500px){
+  .hero-btn {
+    margin-left: 50px;
+  } 
+}
 .butn span {
   color: #29292b;
   font-weight: 500;
+  
 }
 .butn.butn-darkGray {
   background-color: #29292b;
@@ -2609,6 +2615,11 @@ input:focus {
   position: relative;
   display: inline-block;
   border-radius: 50px;
+}
+@media screen and (max-width: 500px) {
+  .button_su {
+    margin-left: 70px;
+  }
 }
 .button_su .su_button_circle {
   background-image: var(--bg-grad1);
@@ -4982,12 +4993,16 @@ input:focus {
 .tc-about-style3 {
   padding: 130px 0;
 }
-.tc-about-hero {
+/* .tc-about-hero {
   padding: 75px 0;
-}
+} */
 .tc-about-style3 .img {
   position: relative;
   padding-top: 70px;
+}
+.tc-about-hero .img {
+  position: relative;
+  padding-bottom: 150px;
 }
 .tc-about-style3 .img .main-img {
   height: 380px;
@@ -18841,6 +18856,13 @@ a.content__text-link[data-fx="14"]:hover::after {
   }
   .home-style3 .tc-header-style3 .content .info h1 {
     font-size: 50px;
+  }
+  @media screen and (max-width: 500px) {
+    .home-style3 .tc-header-style3 .content .info h1 {
+      margin-left:30px;
+    }
+
+    
   }
   .home-style3 .tc-header-style3 .content .info .text {
     font-size: 18px;

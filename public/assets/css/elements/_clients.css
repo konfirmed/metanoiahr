@@ -1,9 +1,0 @@
-/* --------------- tc-clients-style5 --------------- */
-.tc-clients-style5 .tc-clients-slider5 .img img {
-  width: 130px; }
-
-.tc-clients-style5 .tc-clients-slider5 .swiper-wrapper {
-  -webkit-transition-timing-function: linear !important;
-  -o-transition-timing-function: linear !important;
-  transition-timing-function: linear !important;
-  position: relative; }

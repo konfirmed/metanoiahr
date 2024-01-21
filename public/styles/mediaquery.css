@@ -167,6 +167,7 @@
   .testimonial {
     margin-top: 85px;
     .swiper-slide {
+      width:  -moz-fit-content;
       width: fit-content;
     }
 

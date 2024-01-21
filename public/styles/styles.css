@@ -224,7 +224,7 @@ header {
 
   .testimonial-items {
     background-color: #fff;
-    height: 600px;
+    height: auto;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: 2px #d9d9d9 solid;
@@ -251,23 +251,24 @@ header {
     margin-top: 0;
   }
   .testimonial-info {
-    padding: 0 2em 0 2em;
+    padding: 0 0.5em;
     color: black;
-    font-size: 12px;
+    font-size: 16px;
     font-family: Manrope;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 24px;
     letter-spacing: 1.2px;
     word-wrap: break-word;
   }
   .testimonial-flex {
-    padding: 2.5em 2.5em;
+    padding: 1.2em 1.2em;
     display: flex;
-    justify-content: space-between;
+    /* align-items: normal; */
   }
   .testimonial-text {
-    width: 180px;
-    height: 28px;
+    width: 100%;
+    height: auto;
+    padding: 0 1em;
   }
   .testimonial-text h5,
   img {
@@ -275,17 +276,17 @@ header {
   }
   .testimonial-text h5 {
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-family: Manrope;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 18px;
     letter-spacing: 1.4px;
     word-wrap: break-word;
   }
   .testimonial-text p {
     margin-top: 0;
     color: black;
-    font-size: 12px;
+    /* font-size: 14px; */
     font-family: Manrope;
     font-weight: 500;
     line-height: 15px;
@@ -317,8 +318,8 @@ header {
   margin-top: 0;
   .two-items {
     background-color: #fff;
-    width: 341px;
-    height: 700px;
+    width: auto;
+    height: auto;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: 2px #d9d9d9 solid;
@@ -370,7 +371,7 @@ header {
     height: 300px;
     margin: 20px 20px;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-family: Manrope;
     font-weight: 400;
     line-height: 25px;

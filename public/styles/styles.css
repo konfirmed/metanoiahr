@@ -407,7 +407,7 @@ header {
   align-items: center;
   .portfolio-cont {
     background-color: #feffff;
-    width: 80%;
+    /* width: 80%; */
     margin: 50px 0 50px 0;
   }
   .portfolio-flex {
@@ -421,10 +421,9 @@ header {
   }
   .portfolio-text,
   .portfolio-img {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     justify-content: center;
-    padding-left: 6em; 
   }
   .portfolio-title {
     color: #0272bd;
@@ -441,6 +440,7 @@ header {
     font-family: Manrope;
     font-weight: 400;
     word-wrap: break-word;
+    padding-left: 4em;
   }
   .top-port-img {
     position: relative;

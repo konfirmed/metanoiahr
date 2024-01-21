@@ -440,7 +440,7 @@ header {
     font-family: Manrope;
     font-weight: 400;
     word-wrap: break-word;
-    padding-left: 4em;
+    padding: 0 4em;
   }
   .top-port-img {
     position: relative;

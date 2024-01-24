@@ -263,30 +263,34 @@ header {
   .testimonial-flex {
     padding: 1.2em 1.2em;
     display: flex;
-    /* align-items: normal; */
   }
   .testimonial-text {
     width: 100%;
     height: auto;
     padding: 0 1em;
   }
+  .fav-img img{
+    width: 76px;
+    height: 75px;
+  }
   .testimonial-text h5,
   img {
     margin: 0;
   }
-  .testimonial-text h5 {
+   .testimonial-text h5 {
     color: black;
     font-size: 16px;
     font-family: Manrope;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 1.4px;
+    margin-bottom: 10px;
     word-wrap: break-word;
-  }
+}
+  
   .testimonial-text p {
     margin-top: 0;
     color: black;
-    /* font-size: 14px; */
     font-family: Manrope;
     font-weight: 500;
     line-height: 15px;

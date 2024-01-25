@@ -643,6 +643,53 @@ header {
     padding: 10px 0;
   }
 }
+/* CONTACT */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  .form-items {
+    width: 50%;
+  }
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  form .form-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: #dc3545;
+    margin-top: 5px;
+  }
+}
+
 /* FOOTER SECTION*/
 .footer {
   background: #fff;

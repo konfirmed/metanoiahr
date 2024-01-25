@@ -246,6 +246,10 @@
       }
     }
   }
+/* CONTACT */
+.contact-section .form-items {
+    width: 80%;
+  }
 
   /*FOOTER SECTION*/
   .footer {

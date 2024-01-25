@@ -263,13 +263,15 @@ header {
   .testimonial-flex {
     padding: 1.2em 1.2em;
     display: flex;
+
+    height: 120px;
   }
   .testimonial-text {
     width: 100%;
     height: auto;
     padding: 0 1em;
   }
-  .fav-img img{
+  .fav-img img {
     width: 76px;
     height: 75px;
   }
@@ -277,7 +279,7 @@ header {
   img {
     margin: 0;
   }
-   .testimonial-text h5 {
+  .testimonial-text h5 {
     color: black;
     font-size: 16px;
     font-family: Manrope;
@@ -286,8 +288,8 @@ header {
     letter-spacing: 1.4px;
     margin-bottom: 10px;
     word-wrap: break-word;
-}
-  
+  }
+
   .testimonial-text p {
     margin-top: 0;
     color: black;
@@ -329,14 +331,18 @@ header {
     border: 2px #d9d9d9 solid;
     margin: 20px 10px;
   }
+
+  .two-img {
+    margin-top: 20px;
+  }
   .two-img,
   .two-text h5,
   .two-info p,
   .two-buttons {
-    padding: 10px 10px 0 10px;
     display: flex;
     justify-content: center;
   }
+
   .two-buttons a {
     color: white;
     text-decoration: none;
@@ -372,7 +378,6 @@ header {
   }
 
   .two-info {
-    height: 300px;
     margin: 20px 20px;
     color: black;
     font-size: 16px;
@@ -411,7 +416,7 @@ header {
   align-items: center;
   .portfolio-cont {
     background-color: #feffff;
-    /* width: 80%; */
+    width: 80%;
     margin: 50px 0 50px 0;
   }
   .portfolio-flex {
@@ -425,7 +430,7 @@ header {
   }
   .portfolio-text,
   .portfolio-img {
-    /* width: 50%; */
+    width: 50%;
     display: flex;
     justify-content: center;
   }
@@ -444,7 +449,7 @@ header {
     font-family: Manrope;
     font-weight: 400;
     word-wrap: break-word;
-    padding: 0 4em;
+    padding: 0 50px;
   }
   .top-port-img {
     position: relative;
@@ -467,6 +472,7 @@ header {
   }
 }
 /* SERVICES*/
+
 .services {
   display: flex;
   flex-direction: column;
@@ -542,6 +548,7 @@ header {
     display: flex;
     justify-content: center;
     align-self: center;
+    padding-top: 50px;
     margin: 50px 0 50px 0;
   }
 
@@ -558,7 +565,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   .bg-blur {
     border-radius: 100%;
     background: radial-gradient(#b8e4ff, #cbe2f1);
@@ -655,14 +662,14 @@ header {
     display: flex;
     justify-content: space-between;
   }
-  i{
+  i {
     font-size: 25px;
     background-color: #000;
     color: #fff;
     padding: 5px 5px;
     border-radius: 5px;
-   position: relative;
-   top: 0;
-   left: 90%;
+    position: relative;
+    top: 0;
+    left: 90%;
   }
 }

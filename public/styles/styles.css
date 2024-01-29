@@ -45,6 +45,9 @@ body {
 /* NAVBAR */
 
 header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
   .nav-container {
     display: block;
     align-items: center;
@@ -106,6 +109,7 @@ header {
   align-items: center;
   background-color: #fff;
   align-items: center;
+  margin-top: 100px;
   .hero-items {
     width: 80%;
     display: flex;
@@ -651,13 +655,7 @@ header {
 .swiper{
   height: 400px
 }
-  .blogs-items {
-    background-color: #fff;
-    height: 300px;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    border: 2px #d9d9d9 solid;
-  }
+
 
 a{
   text-decoration-line: none;
@@ -679,7 +677,14 @@ a{
     padding: 1.2em 1.2em;
     display: flex;
     flex-direction: column;
+     background-color: #fff;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 2px #d9d9d9 solid;
   }
+  .blogs-text  {
+   height: 150px;
+}
   .blogs-text h5 {
     color: black;
     font-size: 20px;
@@ -696,9 +701,12 @@ a{
     height: 85px;
   }
   
+  .blogs-image  {
+  height: 50%;
+  } 
   .blogs-image img {
-  width: 100px;
-  height: 100px;
+  width:100%;
+  height: 200px;
   } 
   
  

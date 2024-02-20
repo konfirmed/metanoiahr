@@ -62,11 +62,13 @@ header {
     align-items: center;
     padding: 0 50px 0 50px;
     margin-bottom: 50px;
+    
 
     .nav-list {
       display: flex;
       justify-content: space-between;
     }
+    
     .list {
       margin-top: 18px;
       display: flex;

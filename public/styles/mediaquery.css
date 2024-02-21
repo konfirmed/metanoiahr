@@ -7,7 +7,7 @@
   header {
     .navbar {
       .nav-list {
-        display: none;
+        margin-top: 10px;
       }
 
       .nav-icon {
